@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "This project is a demonstration of automated testing using **Playwright** with **TypeScript** for the **EpicBet** Application.",
   "main": "index.js",
+   "ci": "npx playwright test --project=ci",  
   "directories": {
     "test": "tests"
-  },
+  }
+  ,
   "dependencies": {
     "@playwright/test": "^1.49.1",
     "playwright": "^1.49.1",
