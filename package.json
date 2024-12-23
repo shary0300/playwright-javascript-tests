@@ -1,0 +1,23 @@
+{
+  "name": "playwright-typescript-epic-bet",
+  "version": "1.0.0",
+  "description": "This project is a demonstration of automated testing using **Playwright** with **TypeScript** for the **EpicBet** Application.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.49.1",
+    "playwright": "^1.49.1",
+    "playwright-core": "^1.49.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}
