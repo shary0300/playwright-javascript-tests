@@ -11,7 +11,7 @@ playwright-javascript-betsson-automation/
 │   └── LoginPage.js           # Page object for login functionality
 ├── tests/
 │   ├── ui/
-│   │   ├── AddToCart.spec.js      # Test case for adding items to cart
+│   │   ├── addToCart.spec.js      # Test case for adding items to cart
 │   │   ├── Checkout.spec.js       # Test case for checkout process
 │   │   ├── E2EProductPurchase.spec.js # End-to-end product purchase tests
 │   │   └── LoginTest.spec.js      # Test case for login functionality
@@ -21,7 +21,7 @@ playwright-javascript-betsson-automation/
 │       └── GetPet.spec.js         # API test case for fetching pet details
 ├── test-data/
 │   ├── api/
-│   │   ├── AddPetBody.json        # Request body for adding pets
+│   │   ├── addPetBody.json        # Request body for adding pets
 │   │   ├── endpoints.json         # API endpoints
 │   │   └── headers.json           # Common API headers
 │   ├── frontEnd/
