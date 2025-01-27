@@ -1,0 +1,5 @@
+{
+    "pet": "/v2/pet",
+    "petID": "/{{petId}}"
+  }
+  

@@ -14,7 +14,11 @@
     "playwright-core": "^1.49.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "chrome-ui-tests": "npx playwright test --grep @ui --project=chromium",
+    "chrome-api-tests": "npx playwright test --grep @api --project=chromium",
+    "chrome-all-tests": "npx playwright test --project=chromium"
+
   },
   "keywords": [],
   "author": "",
